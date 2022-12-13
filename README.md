@@ -6,3 +6,5 @@ A config for neovim for development on C++ with nvim.
 - `F2` Source file explorer
 - `F10` Next *tab* editor
 - `F9` Previous *tab* editor
+
+- <kbd>ALT</kbd> test
