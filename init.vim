@@ -33,6 +33,16 @@ nnoremap <silent> <F3> <cmd>NvimTreeToggle<CR>
 nnoremap <silent> <F2> <cmd>Telescope find_files<CR>
 nnoremap <silent> <F10> <cmd>BufferLineCycleNext<CR>
 nnoremap <silent> <F9> <cmd>BufferLineCyclePrev<CR>
+nmap <silent> <m-h>  <cmd>BufferLineCyclePrev<CR>
+nmap <silent> <m-l>  <cmd>BufferLineCycleNext<CR>
+nmap <silent> <c-k> :wincmd k<CR>
+nmap <silent> <c-j> :wincmd j<CR>
+nmap <silent> <c-h> :wincmd h<CR>
+nmap <silent> <c-l> :wincmd l<CR>
+nmap <silent> <c-m-h> <c-w>H
+nmap <silent> <c-m-j> <c-w>J
+nmap <silent> <c-m-k> <c-w>K
+nmap <silent> <c-m-l> <c-w>L
 
 inoremap <silent><expr> <c-space> coc#refresh()
 
